@@ -12,3 +12,5 @@ public class Assign1 {
         System.out.println(a);
     }
 }
+
+
