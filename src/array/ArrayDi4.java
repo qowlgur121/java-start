@@ -1,11 +1,16 @@
 package array;
 
-public class ArrayDi3 {
+public class ArrayDi4 {
     public static void main(String[] args) {
-        int[][] arr = new int[][]{
-            {1, 2, 3},
-            {4, 5, 6}
-        };
+
+        int[][] arr = new int[5][5];
+
+        int i = 1;
+        for (int row = 0; row < arr.length; row++) {
+            for (int column = 0; column < arr[row].length; column++) {
+                arr[row][column] = i++;
+            }
+        }
 
         for (int row = 0; row < arr.length; row++) {
             for (int column = 0; column < arr[row].length; column++) {
