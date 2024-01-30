@@ -12,7 +12,6 @@ public class DecoDataMain {
         DecoData.staticCall();
         DecoData.staticCall();
 
-
         System.out.println("2.인스턴스 호출1");
         DecoData data1 = new DecoData();
         data1.instanceCall();
