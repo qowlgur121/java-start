@@ -1,7 +1,7 @@
 package static2;
 
 //import static static2.DecoData.staticCall;
-//import static static2.DecoData.*;
+//import static static2.DecoData.*; //이건 클래스. 으로 접근 안하고 함수 이름만으로 접근하고 싶을 때 쓰면 된다.
 
 public class DecoDataMain {
     public static void main(String[] args) {
