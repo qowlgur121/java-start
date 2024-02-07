@@ -30,6 +30,5 @@ public class PayMain0 {
 
             payService.processPay(payOption, amount);
         }
-
     }
 }
