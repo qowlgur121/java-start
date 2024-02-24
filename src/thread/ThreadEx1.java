@@ -33,6 +33,7 @@ public class ThreadEx1 {
 
         System.out.println();
 
+
         System.out.println("2");
     }
 }
