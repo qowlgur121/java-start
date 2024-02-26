@@ -18,6 +18,6 @@ public class LamdaEx1 {
         //데이터
         int x = 10;
         int y = 4;
-        calculable.calculate(x, y);
+        calculable.addTwoNumbers(x, y);
     }
 }

@@ -2,5 +2,5 @@ package lambda;
 
 @FunctionalInterface
 public interface Calculable {
-    void calculate(int x, int y);
+    void addTwoNumbers(int x, int y);
 }
