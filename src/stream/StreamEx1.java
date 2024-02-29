@@ -14,6 +14,5 @@ public class StreamEx1 {
                 .collect(Collectors.toList());
 
         System.out.println(longWords); // 출력: [Banana, Cherry, Durian, Elderberry]
-
     }
 }
