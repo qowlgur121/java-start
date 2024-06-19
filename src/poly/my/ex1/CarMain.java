@@ -1,4 +1,4 @@
-package poly.my.ex;
+package poly.my.ex1;
 
 
 public class CarMain {
