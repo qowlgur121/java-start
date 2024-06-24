@@ -8,7 +8,7 @@ public class TestString6 {
         int count = 0;
         int index = 0;
         while (index != str.length()) {
-            index = str.indexOf(key, index);
+            index = str.indexOf(key, index + 1); // 무한루프 조심
             if (index == -1) {
                 break;
             }
