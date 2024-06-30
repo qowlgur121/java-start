@@ -1,4 +1,4 @@
-package exception;
+package exception.past;
 
 import java.io.FileWriter;
 import java.io.IOException;

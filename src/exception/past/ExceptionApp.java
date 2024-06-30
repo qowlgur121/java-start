@@ -1,4 +1,4 @@
-package exception;
+package exception.past;
 
 public class ExceptionApp {
     public static void main(String[] args) {
