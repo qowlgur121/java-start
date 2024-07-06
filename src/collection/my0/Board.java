@@ -1,4 +1,4 @@
-package collection;
+package collection.my0;
 
 public class Board {
     private String subject;
