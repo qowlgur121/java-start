@@ -74,8 +74,8 @@ public class MyArrayListV4<E> {
     }
 
     //코드 추가
-    public Object remove(int index) {
-        Object oldValue = get(index);
+    public E remove(int index) {
+        E oldValue = get(index);
         shiftLeftFrom(index);
         size--;
         elementData[size] = null;
