@@ -12,17 +12,18 @@ public class MapMain1 {
 
         // 학생 성적 데이터 추가
         studentMap.put("studentA", 90);
-        studentMap.put("studentB", 90);
-        studentMap.put("studentC", 90);
-        studentMap.put("studentD", 90);
+        studentMap.put("studentB", 80);
+        studentMap.put("studentC", 80);
+        studentMap.put("studentD", 100);
         System.out.println(studentMap);
+
 
         // 특정 학생의 값 조회
         Integer result = studentMap.get("studentD");
         System.out.println("result = " + result);
 
         System.out.println("keySet 활용");
-        Set<String> keySet = studentMap.keySet();
+        Set<String> keySet = studentMap.keySet(); //키들만 반환.
         for (String key : keySet) {
             Integer value = studentMap.get(key);
             System.out.println("key=" + key + ", value=" + value);
@@ -36,11 +37,10 @@ public class MapMain1 {
             System.out.println("key=" + key + ", value=" + value);
         }
 
-        System.out.println("value 활용");
-        Collection<Integer> values = studentMap.values();
+        System.out.println("values 활용");
+        Collection<Integer> values = studentMap.values(); //값들을 반환한다.
         for (Integer value : values) {
-            System.out.println(value);
+            System.out.println("value = " + value);
         }
-
     }
 }
